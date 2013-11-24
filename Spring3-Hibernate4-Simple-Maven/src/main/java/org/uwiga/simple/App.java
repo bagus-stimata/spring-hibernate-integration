@@ -15,6 +15,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class App {
     public static void main( String[] args ){
+    	System.out.println("hehehe");
+    	
     	//ApplicationContext for Service Layer
     	//ApplicationContext ctxForServiceLayer = ApplicationContextProviderForServiceLayer.getInstance().getApplicationContext();
     	ApplicationContext ctxForServiceLayer = new ClassPathXmlApplicationContext("org/config/spring/ApplicationContextForServiceLayer.xml");
